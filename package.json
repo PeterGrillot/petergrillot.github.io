@@ -1,8 +1,8 @@
 {
-  "name": "webgen",
+  "name": "petergrillot.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "directories": {
     "doc": "docs"
   },
