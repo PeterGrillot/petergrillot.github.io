@@ -15,7 +15,7 @@
     <ul>
     <% links.forEach(function(link){ %>
       <li>
-        <a href=<%- include('smartlink.ejs'); %><%= link.href %> target="_blank" rel="noopener noreferrer">
+        <a href=<%= link.href %> target="_blank" rel="noopener noreferrer">
           <%= link.name %>
         </a>
       </li>
