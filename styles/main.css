@@ -1,0 +1,73 @@
+:root {
+  --color-text-body: #272727;
+  --color-text-header: #334844;
+  --color-link: #0c6b6b;
+  --color-link-visited: #5e006b;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: var(--color-text-body);
+  font-size: 10px;
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  color: var(--color-text-header);
+}
+a {
+  color: var(--color-link);
+}
+a:visited {
+  color: var(--color-link-visited);
+}
+
+/* Nav */
+.nav > ul {
+  display: flex;
+  margin: 0;
+  background: #bddedb;
+  border-bottom: .2rem solid cadetblue;
+  padding-top: 1rem;
+}
+.nav span,.nav a  {
+  display: block;
+  text-decoration: none;
+  color: var(--color-link);
+  padding: 0.4rem 1rem;
+  padding-right: 1.2rem;
+  margin-bottom: -.2rem;
+}
+.nav > ul > li {
+  list-style: none;
+  color: #636363;
+}
+.nav > ul > li > span {
+  background: white;
+  border-left: .2rem solid;
+  border-top: .2rem solid;
+}
+.nav > ul > li > a:visited {
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+/* Article */
+.article {
+  padding: 1.2rem;
+  flex: 1;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  padding: 2rem 1.4rem;
+}
+.footer a, .footer:visited {
+  color: cadetblue
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./scripts",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationDir": "./types"
+  },
+  "ts-node": {
+      "esm": true
+  }
+}
