@@ -8,7 +8,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   color: var(--color-text-body);
   font-size: 10px;
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin: 0;
   padding: 0;
   display: flex;
@@ -27,10 +27,12 @@ a:visited {
 }
 
 /* Nav */
+.nav {
+  background: #bddedb;
+}
 .nav > ul {
   display: flex;
   margin: 0;
-  background: #bddedb;
   border-bottom: .2rem solid cadetblue;
   padding-top: 1rem;
 }
@@ -45,11 +47,12 @@ a:visited {
 .nav > ul > li {
   list-style: none;
   color: #636363;
+  line-height: normal;
 }
 .nav > ul > li > span {
   background: white;
-  border-left: .2rem solid;
-  border-top: .2rem solid;
+  border-left: .2rem solid cadetblue;
+  border-top: .2rem solid rgb(148, 210, 212);
 }
 .nav > ul > li > a:visited {
   text-decoration: none;
@@ -59,7 +62,10 @@ a:visited {
 /* Article */
 .article {
   padding: 1.2rem;
+  padding-top: 0;
   flex: 1;
+  max-width: 48rem;
+  margin: auto;
 }
 
 /* Footer */
