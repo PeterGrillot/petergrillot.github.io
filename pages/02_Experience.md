@@ -4,11 +4,13 @@
 
 Remote • _Jun 2021 - Present_
 
+Feature development on Dragos' flagship web application _SiteStore_. Develop and maintain enhanced Data visualization, asset management, and vulnerability detection components for ICS environments in React.
+
 ## Dragos, Inc. • User Interface Engineer
 
 Remote • _May 2018 - Aug 2021 • 3 yrs 4 mos_
 
-Design and build a scalable UI, team mentoring and leadership. Hands-on application development in a highly collaborative environment where the focus is being the best in class and making others great come join Dragos.
+Hands-on application development in a highly collaborative environment where the focus is being the best in class and making others great come join Dragos.
 
 ### Responsibilities
 
@@ -36,7 +38,7 @@ Develop HTML/CSS/JS to build responsive websites with a strong focus on maintain
 
 Washington D.C. • _Jan 2012 - Nov 2015 • 3 yrs 11 mos_
 
-Designed, developed and maintained web applications contracted by Beam Suntory and other clients. Significant achievements include the MixxitUSA Recipe Database for the Portfolio Guide build for the Virtual Spirits Brand Education platform.
+Designed, developed and maintained web applications contracted by Beam Suntory and other clients. Significant achievements include the MixxitUSA Recipe Database, Portfolio Guide, and Virtual Spirits Brand Education platform.
 
 ### Responsibilities
 
@@ -46,7 +48,8 @@ Designed, developed and maintained web applications contracted by Beam Suntory a
 ## Innovative Marketing Solutions, LLC • Multimedia Design & Development
 
 Washington D.C. • _Jun 2010 - Jan 2012 • 1 yr 8 mos_
-Created brand training courses for Beam Suntory using Adobe Flash and Actionscript. Designed and developed sales training courses for brands including the Jim Beam family and Maker’s Mark. Worked on their Digital Asset Guide, a platform built in Flash and Flex which combined all the courses we created as well as sell sheets and promotional products.
+
+Created brand training courses for Beam Suntory using Adobe Flash and ActionScript. Created cohesive, brand encompassing scenes using Adobe PhotoShop. Designed and developed sales training courses for the Beam Suntory family of spirits such as Maker's Mark and DeKuyper. Worked on their Digital Asset Guide, a platform built in Flash and Flex which combined all the courses we created as well as sell sheets and promotional products using Adobe InDesign and Illustrator.
 
 ### Responsibilities
 

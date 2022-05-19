@@ -263,4 +263,3 @@ export async function buildPages(templatePath: string, options: UnknownObject & 
     }
   })
 }
-

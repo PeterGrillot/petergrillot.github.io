@@ -4,6 +4,9 @@
   --color-link: #0c6b6b;
   --color-link-visited: #5e006b;
 }
+html,body {
+  min-height: 100vh;
+}
 body {
   font-family: 'Ubuntu', sans-serif;
   color: var(--color-text-body);
@@ -13,7 +16,6 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
