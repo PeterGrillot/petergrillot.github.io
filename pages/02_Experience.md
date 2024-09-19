@@ -1,57 +1,61 @@
-# Experience
+## Dragos, Inc.
 
-## Dragos, Inc. • Senior User Interface Engineer
+_Remote • May 2018 – Present_
 
-Remote • _Jun 2021 - Present_
+### Staff User Interface Engineer
 
-Feature development on Dragos' flagship web application _SiteStore_. Develop and maintain enhanced Data visualization, asset management, and vulnerability detection components for ICS environments in React.
+Feb 2024 – Present
 
-## Dragos, Inc. • User Interface Engineer
+- Led feature development and implemented large-scale technical initiatives across the company, transitioning engineering teams from community-based structures to product teams.
+- Spearheaded the creation of a comprehensive design system to streamline component reuse and enhance scalability.
+- Enhance our developer experience with our documentation aggregator driven by node, and BitBucket Pipelines
+- Continued to help grow Dragos and its product from a Series A 40 person start up to $1b valuation with 500+ employees world wide.
 
-Remote • _May 2018 - Aug 2021 • 3 yrs 4 mos_
+### Senior User Interface Engineer
 
-Hands-on application development in a highly collaborative environment where the focus is being the best in class and making others great come join Dragos.
+Jun 2021 – Feb 2024
 
-### Responsibilities
+- Established and led the design system team, introducing reusable libraries that improved development efficiency.
+- Collaborated with cross-functional teams to drive feature development for critical components in SiteStore, focusing on enhanced asset management and data visualization tools.
 
-- Work closely with Product Management and Design teams to define feature specifications and build the next generation of the Dragos platform. Design and build modular components.
-- Design, implement and build browser applications in React. Participate in interactions with analysts and customers as a technical expert for product subsystems.
-- Code, test and debug applications using Unit and Automated Testing procedures.
+### User Interface Engineer
 
----
+May 2018 – Aug 2021
 
-## Brightfind • Frontend Developer
+- Joined as one of the first developers on the flagship SiteStore product, playing a pivotal role in maturing the application from the ground up.
+- Transitioned the team from JavaScript to Typescript, optimizing performance and scalability for the growing product.
 
-Silver Spring, MD • _Nov 2015 - May 2018 • 2 yrs 7 mos_
+Consistently demonstrated loyalty and commitment to the company by growing into senior roles and playing a key part in product and team evolution.
 
-Develop HTML/CSS/JS to build responsive websites with a strong focus on maintainability, cross-browser compatibility and performance. Contribute to the ongoing efforts to develop and implement front-end web coding and design standards, and ensure that front-end design standards are met during development.
+## Brightfind
 
-### Responsibilities
+_Silver Spring, MD • Nov 2015 – May 2018_
 
-- Analyzing designs and implementing advanced, efficient front-end markup.
-- Creating and optimizing a workflow using Static Site Generation adopted by the front-end team using Nunjucks templating, Vue.js, Webpack, Gulp and rsync to a Remote Ubuntu Server.
-- Setup and maintaining an Ubuntu Server for front-end sites. Utilizing front-end frameworks to display dynamic content via AJAX/JSON. Develop HTML/CSS/JS to build responsive websites with a strong focus on maintainability, cross-browser compatibility and performance.
+### Frontend Developer
 
----
+- Designed and developed responsive, high-performance websites focusing on maintainability and cross-browser compatibility.
+- Introduced a Static Site Generation workflow that streamlined the front-end team's development process, reducing build times and increasing productivity.
+- Managed the setup and maintenance of a Remote Ubuntu Server for deployment and performance monitoring.
+- Actively contributed to the development of front-end coding standards, ensuring best practices were adhered to across all projects.
 
-## Innovative Marketing Solutions, LLC • Interactive Media Developer
+Displayed a strong commitment to excellence and was entrusted with high-impact projects throughout my time at the company.
 
-Washington D.C. • _Jan 2012 - Nov 2015 • 3 yrs 11 mos_
+## Innovative Marketing Solutions, LLC
 
-Designed, developed and maintained web applications contracted by Beam Suntory and other clients. Significant achievements include the MixxitUSA Recipe Database, Portfolio Guide, and Virtual Spirits Brand Education platform.
+_Washington, D.C. • Jan 2012 – Nov 2015_
 
-### Responsibilities
+### Interactive Media Developer
 
-- Create web applications from design to development. Extensive research to utilize current technologies. Working with web developers in other technologies than my own.
-- Create graphics and images for applications. Process improvements to increase workflow efficiency. Ability to multitask to meet various deadlines. Flexibility to meet clients goals.
+- Designed and developed interactive web applications for high-profile clients like Beam Suntory.
+- Collaborated with cross-functional teams to deliver multimedia training platforms that aligned with the brand identity and marketing strategies.
+- Managed multiple client projects simultaneously, balancing client goals, deadlines, and technical requirements.
+- Created Flash-based e-learning courses, leading the development of brand-aligned visual content and interactive learning experiences.
 
-## Innovative Marketing Solutions, LLC • Multimedia Design & Development
+### Multimedia Design & Development
 
-Washington D.C. • _Jun 2010 - Jan 2012 • 1 yr 8 mos_
+_Jun 2010 – Jan 2012_
 
-Created brand training courses for Beam Suntory using Adobe Flash and ActionScript. Created cohesive, brand encompassing scenes using Adobe PhotoShop. Designed and developed sales training courses for the Beam Suntory family of spirits such as Maker's Mark and DeKuyper. Worked on their Digital Asset Guide, a platform built in Flash and Flex which combined all the courses we created as well as sell sheets and promotional products using Adobe InDesign and Illustrator.
+- Developed digital sales training materials for the Beam Suntory family of spirits, using Adobe Flash and ActionScript.
+- Contributed to the creation of the Digital Asset Guide, a platform integrating brand content with promotional products and sales tools.
 
-### Responsibilities
-
-- Design and develop Flash based courses for brands like Maker’s Mark and Jim Beam. Create images and themes which encapsulate the spirit of various brands.
-- Expanded my scope to properly manage and maintain established products.
+Demonstrated commitment to long-term client relationships and took on increasing responsibility throughout my tenure.

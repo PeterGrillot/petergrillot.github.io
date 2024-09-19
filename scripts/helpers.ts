@@ -223,7 +223,7 @@ export function createFullPagination(
     try {
       let html = await readContent(path.join(docsDir, href))
       if (path.extname(href) === '.md') {
-        html = Markdown().render(html)
+        html = Markdown({ html: true }).render(html)
       }
       if (index === 1) {
         prev = { ...prev, href: 'index.html' }
