@@ -8,10 +8,13 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:css": "nodemon --watch styles -e css",
+    "watch:markdown": "nodemon --watch pages -e md",
+    "watch": "npm run watch:css && npm run watch:markdown",
     "build": "ts-node -r tsconfig-paths/register ./scripts/build.ts",
     "clean": "ts-node -r tsconfig-paths/register ./scripts/clean.ts",
     "dev": "IS_BUILD=true npm run build",
-    "deploy:gh-pages": "git checkout gh-pages && mv dist/* .&& rm -r ./dist/ && git add -A . && git commit -m 'Deploy gh-pages' && git push origin -u gh-pages&& git checkout main" 
+    "deploy:gh-pages": "git checkout gh-pages && mv dist/* .&& rm -r ./dist/ && git add -A . && git commit -m 'Deploy gh-pages' && git push origin -u gh-pages&& git checkout main"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +27,7 @@
     "@types/markdown-it": "^12.2.3",
     "@types/node": "^17.0.23",
     "http-server": "^14.1.0",
+    "nodemon": "^3.1.4",
     "ts-node": "^10.7.0",
     "tsconfig-paths": "^3.14.1",
     "tslib": "^2.3.1",

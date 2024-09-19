@@ -1,10 +1,11 @@
 <nav class="nav">
+  <img src="/static/pg-logo.png" />
   <ul>
   <% nav.forEach(function(value) { %>
     <% if(value.href) {%>
       <li>
         <% if (value.name === name) { %>
-           <span><%= value.name %></span>
+           <span>&rangle;</span><%= value.name %>
         <% } else { %>
            <a href=<%- include('smartlink.ejs'); %><%= value.href %>>
             <%= value.name %>
