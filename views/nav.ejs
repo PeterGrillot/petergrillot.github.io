@@ -1,5 +1,5 @@
 <nav class="nav">
-  <img src="/static/pg-logo.png" />
+  <img src=<%- include('smartlink.ejs'); %>/static/pg-logo.png />
   <ul>
   <% nav.forEach(function(value) { %>
     <% if(value.href) {%>
