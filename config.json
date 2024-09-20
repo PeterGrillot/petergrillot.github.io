@@ -1,6 +1,6 @@
 {
   "title": "Peter Grillot - UI Engineer", 
-  "root": ".",
+  "root": "build",
   "links": [
     {
       "name": "Github",
