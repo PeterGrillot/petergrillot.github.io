@@ -13,7 +13,7 @@
     "watch": "npm run watch:css && npm run watch:markdown",
     "build": "ts-node -r tsconfig-paths/register ./scripts/build.ts",
     "clean": "ts-node -r tsconfig-paths/register ./scripts/clean.ts",
-    "dev": "IS_BUILD=true npm run build",
+    "dev": "DEV_MODE=false npm run build",
     "deploy:gh-pages": "git checkout gh-pages && npm run build && git add -A . && git commit -m 'Deploy gh-pages' && git push origin -u gh-pages&& git checkout main"
   },
   "author": "",
