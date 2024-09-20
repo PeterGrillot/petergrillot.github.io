@@ -2,9 +2,11 @@
 <html>
   <%- include('head.ejs'); %>
   <body>
-    <%- include('nav.ejs'); %>
-    <%- include('content.ejs'); %>
-    <%- include('footer.ejs'); %>
-    <floating-logo><img src="/static/reload-bg.png" /></floating-logo>
+    <%- include('nav.ejs'); %> <%- include('content.ejs'); %> <%-
+    include('footer.ejs'); %>
+    <floating-logo
+      ><img src=<%- include('smartlink.ejs');
+      %>static/reload-bg.png/></floating-logo
+    >
   </body>
 </html>
