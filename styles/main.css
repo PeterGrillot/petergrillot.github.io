@@ -1,11 +1,11 @@
 :root {
   --color-body-text: #ffeeee;
-  --color-header-text: #8cdd98;
-  --color-link: #d896f4;
-  --color-link-visited: #f4d1f9;
-  --color-main-background: #272727;
-  --color-nav-background: #343434;
-  --color-footer-background: #ffccccb0;
+  --color-header-text: #7fedff;
+  --color-link: aquamarine;
+  --color-link-visited: #42a788;
+  --color-background: #5383fd;
+  --color-shadow: #19264477;
+  --color-footer-background: #8cdd9877;
   --color-footer-text: #343434;
   --color-link-dark: #185a32;
   --color-link-dark-visited: #691378;
@@ -15,12 +15,13 @@ html,body {
 }
 body {
   color: var(--color-body-text);
-  background-color: var(--color-main-background);
+  background: var(--color-background);
   margin: 0;
   padding: 0;
   margin-top: 6rem;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 /* typography */
 html {
@@ -38,6 +39,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', serif;
   font-weight: 300;
   color: var(--color-header-text);
+  text-shadow: 2px 2px 0px var(--color-shadow);
+
 }
 h1 {
   font-size: 3.2rem;
@@ -59,26 +62,45 @@ a {
 a:visited {
   color: var(--color-link-visited);
 }
+
+background-image {
+  -webkit-filter: blur(8px);
+  filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../static/background.webp);
+  position: fixed;
+  top: -15px;
+  bottom: -15px;
+  left: -15px;
+  right: -15px;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+
 /* Custom page layout */
 header {
   display: flex;
+  align-items: end;
   padding-top: 1rem;
+  height: 30rem;
 }
 header > h1 {
   color: var(--color-header-text);
   margin: 0;
   padding: 0;
   font-weight: 200;
-  font-size: 8rem;
+  font-size: 13rem;
   margin-right: 2rem;
 }
 header > aside {
-  align-content: center;
   font-size: 1.8rem;
 }
 /* Nav */
 .nav {
-  background: var(--color-nav-background);
+  background: var(--color-shadow);
   position: fixed;
   top: 0;
   width: 100%;
@@ -126,7 +148,7 @@ header > aside {
   padding: 1.2rem;
   padding-top: 0;
   flex: 1;
-  max-width: 56rem;
+  max-width: 76rem;
   margin: auto;
 }
 
