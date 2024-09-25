@@ -1,11 +1,12 @@
 :root {
   --color-body-text: #ffeeee;
+  --color-pop-text: #fbc1bb;
   --color-header-text: #7fedff;
   --color-link: aquamarine;
   --color-link-visited: #42a788;
   --color-background: #5383fd;
-  --color-shadow: #19264477;
-  --color-footer-background: #8cdd9877;
+  --color-shadow: #19264488;
+  --color-footer-background: #fbc1bb88;
   --color-footer-text: #343434;
   --color-link-dark: #185a32;
   --color-link-dark-visited: #691378;
@@ -43,6 +44,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-size: 3.2rem;
+  color: var(--color-pop-text);
+  font-weight: 900;
 }
 h2 {
   font-size: 2.6rem;
@@ -87,10 +90,10 @@ header {
   height: 30rem;
 }
 header > h1 {
-  color: var(--color-header-text);
+  
   margin: 0;
   padding: 0;
-  font-weight: 900;
+  
   font-size: 13rem;
   margin-right: 2rem;
 }
