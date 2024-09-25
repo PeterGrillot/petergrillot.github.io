@@ -85,7 +85,6 @@ header {
   align-items: end;
   padding-top: 1rem;
   height: 30rem;
-  margin-top: 6rem;
 }
 header > h1 {
   color: var(--color-header-text);
@@ -150,6 +149,7 @@ header > aside {
   flex: 1;
   max-width: 76rem;
   margin: auto;
+  margin-top: 6rem;
 }
 
 /* Footer */
