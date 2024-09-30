@@ -1,11 +1,11 @@
 :root {
   --color-body-text: #ffeeee;
-  --color-pop-text: #fbc1bb;
-  --color-header-text: #7fedff;
+  --color-pop-text: #54ffc6;
+  --color-header-text: #ff7f85;
   --color-link: aquamarine;
   --color-link-visited: #42a788;
-  --color-background: #5383fd;
-  --color-shadow: #19264488;
+  --color-background: #011038;
+  --color-shadow: #3b1944a1;
   --color-footer-background: #fbc1bb88;
   --color-footer-text: #343434;
   --color-link-dark: #185a32;
@@ -72,13 +72,14 @@ background-image {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../static/background.webp);
+  transform: rotate(180deg);
   position: fixed;
   top: -15px;
   bottom: -15px;
   left: -15px;
   right: -15px;
   z-index: -1;
-  opacity: 0.6;
+  opacity: 0.4;
 }
 
 
@@ -158,8 +159,7 @@ header > aside {
 /* Footer */
 .footer {
   padding: 2rem 1.4rem;
-  background: var(--color-footer-background);
-  color: var(--color-footer-text);
+  background: var(--color-shadow);
 }
 
 .footer ul {
@@ -174,12 +174,12 @@ header > aside {
   margin: 0;
   padding-right: 1.2rem;
 }
-footer a {
+/* footer a {
   color: var(--color-link-dark);
 }
 footer a:visited {
   color: var(--color-link-dark-visited);
-}
+} */
 
 floating-logo {
   position: fixed;
