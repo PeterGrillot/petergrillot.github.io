@@ -9,14 +9,17 @@ Driven UI engineer with a track record of helping companies grow and leading tec
 
 ## Technical Skills
 
-- Frontend Technologies: React, TypeScript, JavaScript (ES6+), HTML5, CSS3, SASS/SCSS, Vue.js, Vite, Webpack
-- UI Frameworks/Libraries: Material UI, Redux (RTK), Keylines
-- Testing & Debugging: RTL, Jest, Enzyme, Cypress, Unit/Integration Testing, CI/CD
-- UI / UX Design Tools: Figma, Miro
-- Version Control: Git, GitHub, BitBucket
-- Other Tools: Atlassian Suite, Nunjucks, Webpack, Node.js, AJAX, JSON, Static Site Generators
+- **Frontend Technologies:** React, TypeScript, JavaScript (ES6+), Next.js, Vite, Webpack, HTML5, CSS3, SASS
+- **UI Frameworks/Libraries:** Material UI, Redux (RTK), Mapbox, Keylines  
+- **Testing & Debugging:** RTL, Jest, Cypress, Playwright, Unit/Integration Testing, CI/CD  
+- **UI/UX Design Tools:** Figma, Miro
+- **Backend & Databases:** Nest.js, Node, REST APIs, Relational Databases  
+- **AI & Automation:** ChatGPT, Copilot, AI-assisted development  
+- **Version Control & Tooling:** Git, GitHub, BitBucket, Atlassian Suite, Nunjucks, Webpack, Static Site Generators  
 
 ### Hobby Languages and Tools:
 
 - C++ / SFML
+- Python
+- Kotlin
 - Electron

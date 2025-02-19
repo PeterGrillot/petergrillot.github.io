@@ -1,10 +1,23 @@
+## United States Pharmacopeia
+
+_Remote • Sep 2024 – Present_
+
+### Senior Frontend Engineer
+
+Sep 2024 – Present
+
+- Develop and maintain user-friendly interfaces with React, Next.js, and TypeScript, focusing on performance and UX.  
+- Build and optimize interactive data visualizations, animations, and geospatial maps using Mapbox GL.  
+- Enhance UI consistency and developer efficiency by contributing to a scalable component library with Storybook.  
+- Collaborate cross-functionally in an agile environment to drive innovation and improve application quality.  
+
 ## Dragos, Inc.
 
-_Remote • May 2018 – Present_
+_Remote • May 2018 – Sep 2024_
 
 ### Staff User Interface Engineer
 
-Feb 2024 – Present
+Feb 2024 – Sep 2024
 
 - Led feature development and implemented large-scale technical initiatives across the company, transitioning engineering teams from community-based structures to product teams.
 - Spearheaded the creation of a comprehensive design system to streamline component reuse and enhance scalability.
