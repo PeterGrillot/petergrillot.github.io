@@ -80,7 +80,7 @@ async function build() {
   if (process.env.DEV_MODE) {
     let buildRoot = config.root === '.' ? '' : config.root
     exec(`npx http-server ${buildRoot}`)
-    console.info(`📡 Serving at http://localhost:8080/${buildRoot} 📡`)
+    console.info(`📡 Serving at http://localhost:8080/ 📡`)
   }
 }
 

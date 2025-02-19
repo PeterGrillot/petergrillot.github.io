@@ -3,10 +3,10 @@
   --color-header-text: #8cdd98;
   --color-link: #d896f4;
   --color-link-visited: #f4d1f9;
-  --color-main-background: #272727;
-  --color-nav-background: #343434;
-  --color-footer-background: #ffccccb0;
-  --color-footer-text: #343434;
+  --color-main-background: #1f1c27;
+  --color-nav-background: #f277776b;
+  --color-footer-background: #0a0a60b0;
+  --color-footer-text: #ffe6e6;
   --color-link-dark: #185a32;
   --color-link-dark-visited: #691378;
 }
@@ -28,14 +28,15 @@ html {
 }
 body {
   font-weight: 300;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Nato Sans', sans-serif;
   font-size: 1.6rem;
 }
 p, ul, li {
   line-height: 1.4;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', serif;
+
+  font-family: 'Nova Square', serif;
   font-weight: 300;
   color: var(--color-header-text);
 }
@@ -163,22 +164,33 @@ floating-logo {
   height: 60vw;
   right: 0;
   top: 20vh;
-  animation: spin 60s infinite;
-  opacity: 0.05;
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg)
-  }
-  25% {
-    transform: rotate(360deg)
-  }
-  100% {
-    transform: rotate(360deg)
-  }
-}
-floating-logo img {
-  width: 100%;
+  opacity: 0.2;
 }
 
 /* Custom */
+:root {
+  --glow-color-on: #fed3e8e0;
+  --glow-effect-on: 0 0 10px #ffffff33, 
+                 0 0 20px #ffffff33, 
+                 0 0 30px var(--glow-color-on), 
+                 0 0 40px var(--glow-color-on);
+  --glow-color-off: hsla(293, 100%, 92%, 0.483);
+  --glow-effect-off: 0 0 10px #ffffff33, 
+                0 0 20px #ffffff33, 
+                0 0 30px var(--glow-color-off), 
+                0 0 40px var(--glow-color-off);
+}
+
+@keyframes glow {
+  from {
+    text-shadow: var(--glow-effect-on);
+  }
+  to {
+    text-shadow: var(--glow-effect-off);
+  }
+}
+
+/* Apply to any element dynamically */
+/* p, h1,h2,h3,h4,h5,span, li, a {
+  animation: glow 3s ease-in-out infinite alternate;
+} */
