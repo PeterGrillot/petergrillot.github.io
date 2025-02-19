@@ -1,12 +1,11 @@
 :root {
   --color-body-text: #ffeeee;
-  --color-pop-text: #54ffc6;
-  --color-header-text: #ff7f85;
-  --color-link: aquamarine;
-  --color-link-visited: #42a788;
-  --color-background: #011038;
-  --color-shadow: #3b1944a1;
-  --color-footer-background: #fbc1bb88;
+  --color-header-text: #8cdd98;
+  --color-link: #d896f4;
+  --color-link-visited: #f4d1f9;
+  --color-main-background: #272727;
+  --color-nav-background: #343434;
+  --color-footer-background: #ffccccb0;
   --color-footer-text: #343434;
   --color-link-dark: #185a32;
   --color-link-dark-visited: #691378;
@@ -16,12 +15,12 @@ html,body {
 }
 body {
   color: var(--color-body-text);
-  background: var(--color-background);
+  background-color: var(--color-main-background);
   margin: 0;
   padding: 0;
+  margin-top: 6rem;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
 }
 /* typography */
 html {
@@ -39,19 +38,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', serif;
   font-weight: 300;
   color: var(--color-header-text);
-  text-shadow: 2px 2px 0px var(--color-shadow);
-
 }
 h1 {
   font-size: 3.2rem;
-  color: var(--color-pop-text);
-  font-weight: 900;
 }
 h2 {
   font-size: 2.6rem;
 }
 h3 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 
   font-weight: 300;
 }
@@ -64,46 +59,26 @@ a {
 a:visited {
   color: var(--color-link-visited);
 }
-
-background-image {
-  -webkit-filter: blur(8px);
-  filter: blur(8px);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../static/background.webp);
-  transform: rotate(180deg);
-  position: fixed;
-  top: -15px;
-  bottom: -15px;
-  left: -15px;
-  right: -15px;
-  z-index: -1;
-  opacity: 0.4;
-}
-
-
 /* Custom page layout */
 header {
   display: flex;
-  align-items: end;
   padding-top: 1rem;
-  height: 30rem;
 }
 header > h1 {
-  
+  color: var(--color-header-text);
   margin: 0;
   padding: 0;
-  
-  font-size: 13rem;
+  font-weight: 200;
+  font-size: 8rem;
   margin-right: 2rem;
 }
 header > aside {
+  align-content: center;
   font-size: 1.8rem;
 }
 /* Nav */
 .nav {
-  background: var(--color-shadow);
+  background: var(--color-nav-background);
   position: fixed;
   top: 0;
   width: 100%;
@@ -151,15 +126,15 @@ header > aside {
   padding: 1.2rem;
   padding-top: 0;
   flex: 1;
-  max-width: 76rem;
+  max-width: 56rem;
   margin: auto;
-  margin-top: 6rem;
 }
 
 /* Footer */
 .footer {
   padding: 2rem 1.4rem;
-  background: var(--color-shadow);
+  background: var(--color-footer-background);
+  color: var(--color-footer-text);
 }
 
 .footer ul {
@@ -174,12 +149,12 @@ header > aside {
   margin: 0;
   padding-right: 1.2rem;
 }
-/* footer a {
+footer a {
   color: var(--color-link-dark);
 }
 footer a:visited {
   color: var(--color-link-dark-visited);
-} */
+}
 
 floating-logo {
   position: fixed;
