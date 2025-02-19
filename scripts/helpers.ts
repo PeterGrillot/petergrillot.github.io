@@ -3,9 +3,9 @@ import { lstatSync, PathLike } from 'fs';
 import { readFile, mkdir, readdir, copyFile, rm, access, writeFile } from 'fs/promises';
 import * as path from 'path';
 import * as ejs from 'ejs';
-import * as Markdown from 'markdown-it'
 import { FilePagination, FullDocument, NestedPagination, UnknownObject } from '../types';
-
+var Markdown = require('markdown-it'),
+    md = new Markdown();
 /**
  * Overloads readFile from fs with utf-8
  *

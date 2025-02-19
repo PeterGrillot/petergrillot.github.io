@@ -11,8 +11,8 @@
     "watch:css": "nodemon --watch styles -e css",
     "watch:markdown": "nodemon --watch pages -e md",
     "watch": "npm run watch:css && npm run watch:markdown",
-    "build": "ts-node -r tsconfig-paths/register ./scripts/build.ts",
-    "clean": "ts-node -r tsconfig-paths/register ./scripts/clean.ts",
+    "build": "npx tsx ./scripts/build.ts",
+    "clean": "npx tsx ./scripts/clean.ts",
     "dev": "DEV_MODE=true npm run build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -31,9 +31,9 @@
     "gh-pages": "^6.1.1",
     "http-server": "^14.1.0",
     "nodemon": "^3.1.4",
-    "ts-node": "^10.7.0",
     "tsconfig-paths": "^3.14.1",
     "tslib": "^2.3.1",
+    "tsx": "^4.19.3",
     "typescript": "^4.6.3"
   }
 }
