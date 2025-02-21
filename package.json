@@ -14,8 +14,7 @@
     "build": "npx tsx ./scripts/build.ts",
     "clean": "npx tsx ./scripts/clean.ts",
     "dev": "DEV_MODE=true npm run build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d build",
     "deploy:gh-pages": "git checkout gh-pages && npm run build && git add -A . && git commit -m 'Deploy gh-pages' && git push origin -u gh-pages && git checkout main"
   },
   "author": "",
