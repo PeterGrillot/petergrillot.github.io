@@ -11,6 +11,8 @@
   --color-footer-text: #ffe6e6;
   --color-box-shadow: rgb(127, 250, 209);
   --color-text-shadow: 3px 3px 0 rgb(240, 248, 255);
+  --font-display: "Bodoni Moda", serif;
+  --font-body: "Nato Sans", sans-serif;
 }
 html,
 body {
@@ -44,7 +46,7 @@ html {
 }
 body {
   font-weight: 300;
-  font-family: "Nato Sans", sans-serif;
+  font-family: var(--font-body);
   font-size: 1.6rem;
 }
 p,
@@ -58,7 +60,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nato Sans", sans-serif;
+  font-family: var(--font-body);
   font-weight: 900;
   color: var(--color-header-text);
   text-transform: uppercase;
@@ -78,7 +80,7 @@ h1 {
   background: -webkit-linear-gradient(#f0b5b0, #b1b0f0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Bodoni Moda", serif;
+  font-family: var(--font-display);
 }
 h2 {
   font-size: 2.6rem;
