@@ -1,4 +1,4 @@
-import { exec } from "child_process";
+import { exec, spawn } from "child_process";
 import { readdir, copyFile, mkdir } from "fs/promises";
 import * as path from "path";
 import * as config from "../config.json";
@@ -35,14 +35,11 @@ async function build() {
       path.join(__dirname, "/static/"),
       path.join(distDir, "/static/")
     );
+    await copyDir(
+      path.join(__dirname, "/scripts/"),
+      path.join(distDir, "/static/")
+    );
   }
-
-  // Copy CSS and Static Files
-  // Add any preprocess stuff here!
-  // series([
-  //   () => exec('tsc dir/index.ts -o static/index.js'),
-  //   () => exec('postcss --use autoprefixer -o styles/main.css static/*.css')
-  //  ]);
 
   // Read markdown files from `pages` directory
   console.info("📖 Reading `pages` directory... 📖");

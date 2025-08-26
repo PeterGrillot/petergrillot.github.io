@@ -1,14 +1,93 @@
 @media only screen and (max-width: 72rem) {
+  body {
+    font-size: 2rem;
+  }
+  .menu-button {
+    display: block;
+    position: absolute;
+    right: -50px;
+    font-size: 30px;
+    background: turquoise;
+    border: none;
+    color: pink;
+    width: 50px;
+    padding: 8px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+  .menu-button.morphed {
+    border-radius: 100%;
+    animation: morph 1s ease-out forwards;
+    right: 13px;
+    z-index: 99;
+  }
   .nav {
     padding-top: 1rem;
-    padding-left: .4rem;
-    padding-right: .4rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: -33rem;
+    width: 33rem;
+    background: white;
+    position: fixed;
   }
-  .nav, .footer {
-    font-size: 1.2rem;
+  .nav.open {
+    left: 0;
+    animation: slide-in 0.3s ease-out forwards;
+  }
+  .header h1 .surname {
+    font-size: 16vw;
+  }
+  .header h1 .given {
+    font-size: 28vw;
+  }
+  .header > .aside {
+    position: absolute;
+    top: 0;
+    right: 22px;
+  }
+  .header > .aside h2 {
+    font-size: 15vw;
+    text-align: end;
+  }
+  .nav ul {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .nav ul,
+  .footer a {
+    font-size: 2rem;
   }
 
-  header {
+  .header {
     flex-direction: column;
+    height: auto;
+    position: relative;
+  }
+  .footer {
+    background-size: 100%;
+  }
+}
+
+@keyframes slide-in {
+  from {
+    left: -33rem;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes morph {
+  from {
+    border-radius: 0;
+  }
+  to {
+    border-radius: 100%;
   }
 }

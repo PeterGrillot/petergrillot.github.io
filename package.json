@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon",
-    "build": "npx tsx ./scripts/build.ts",
-    "clean": "npx tsx ./scripts/clean.ts",
+    "build": "npx tsx ./lib/build.ts",
+    "clean": "npx tsx ./lib/clean.ts",
     "dev": "DEV_MODE=true npm run build",
     "deploy": "npm run build && gh-pages -d build",
     "deploy:gh-pages": "git checkout gh-pages && npm run build && git add -A . && git commit -m 'Deploy gh-pages' && git push origin -u gh-pages && git checkout main"

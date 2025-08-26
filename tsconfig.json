@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "./scripts",
+    "baseUrl": "lib",
     "module": "commonjs",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
