@@ -2,8 +2,12 @@
 <html>
   <%- include('head.ejs'); %>
   <body>
-    <%- include('nav.ejs'); %> <%- include('content.ejs'); %> <%-
-    include('footer.ejs'); %>
+    <%- include('nav.ejs'); %>
+    <% if (href === 'index.html') { %>
+      <%- include('hero.ejs'); %>
+    <% } %>
+    <%- include('content.ejs'); %>
+    <%- include('footer.ejs'); %>
     <!-- <floating-logo
       ><img src=<%- include('smartlink.ejs'); %>static/bg.gif
       /></floating-logo

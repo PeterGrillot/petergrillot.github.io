@@ -8,9 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:css": "nodemon --watch styles -e css",
-    "watch:markdown": "nodemon --watch pages -e md",
-    "watch": "npm run watch:css && npm run watch:markdown",
+    "watch": "nodemon",
     "build": "npx tsx ./scripts/build.ts",
     "clean": "npx tsx ./scripts/clean.ts",
     "dev": "DEV_MODE=true npm run build",
