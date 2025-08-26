@@ -1,16 +1,19 @@
 :root {
   --color-body-text: #f2f1e4;
-  --color-header-text: #618466;
+  --color-header-text: #96ddd7;
   --color-link: #6f3787;
   --color-link-visited: #1d7565;
+  --color-link-dark: #8ce1ae;
+  --color-link-dark-visited: #d987e8;
   --color-main-background: #000000;
   --color-nav-background: #fffaf3;
   --color-nav-text-color: #453f62;
   --color-footer-text: #ffe6e6;
-  --color-link-dark: #8ce1ae;
-  --color-link-dark-visited: #d987e8;
+  --color-box-shadow: rgb(127, 250, 209);
+  --color-text-shadow: 3px 3px 0 rgb(240, 248, 255);
 }
-html,body {
+html,
+body {
   min-height: 100vh;
 }
 body {
@@ -21,10 +24,10 @@ body {
   display: flex;
   flex-direction: column;
 }
-body::after{
+body::after {
   content: "";
   display: block;
-  background: url('../static/hero.png');
+  background: url("../static/hero.png");
   position: fixed;
   left: 0;
   right: 0;
@@ -32,7 +35,7 @@ body::after{
   bottom: 0;
   z-index: -1;
   background-size: cover;
-    background-position-x: 12rem;
+  background-position-x: 19rem;
 }
 
 /* typography */
@@ -41,24 +44,28 @@ html {
 }
 body {
   font-weight: 300;
-  font-family: 'Nato Sans', sans-serif;
+  font-family: "Nato Sans", sans-serif;
   font-size: 1.6rem;
 }
-p, ul, li {
+p,
+ul,
+li {
   line-height: 1.4;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Nato Sans', sans-serif;
-  font-weight: 300;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nato Sans", sans-serif;
+  font-weight: 900;
   color: var(--color-header-text);
   text-transform: uppercase;
   font-weight: bold;
   font-style: italic;
-  background: -webkit-linear-gradient(#F0B5B0, #b1b0f0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
-  
+
 h1 span.given {
   font-size: 22rem;
 }
@@ -68,6 +75,10 @@ h1 span.surname {
 h1 {
   font-size: 3.2rem;
   line-height: 1;
+  background: -webkit-linear-gradient(#f0b5b0, #b1b0f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Bodoni Moda", serif;
 }
 h2 {
   font-size: 2.6rem;
@@ -99,7 +110,6 @@ header > h1 {
   color: var(--color-header-text);
   margin: 0;
   padding: 0;
-  font-weight: 200;
   font-size: 8rem;
   display: block;
   text-shadow: #1d1247;
@@ -117,17 +127,17 @@ header > aside h2 {
   line-height: 1;
   margin: 0;
   background: transparent;
-    background-clip: border-box;
+  background-clip: border-box;
   -webkit-background-clip: unset;
   -webkit-text-fill-color: unset;
   color: darkcyan;
-  text-shadow: 3px 3px 0 aliceblue;
+  text-shadow: var(--color-text-shadow);
 }
 
 /* Nav */
 .nav {
-  background: var(--color-nav-background);
-  position: fixed;
+  background: url("../static/paper-texture.jpg");
+  background-size: 342px;
   top: 0;
   width: 100%;
   padding: 8px;
@@ -137,13 +147,15 @@ header > aside h2 {
 }
 .nav::after {
   content: "";
-  background: url('../static/top-border.png');
-  background-size: cover;
+  background: url("../static/top-border.png");
+  background-size: 780px;
+  background-repeat: repeat-x;
+  background-position: top;
   display: block;
   width: 100%;
-  height: 4rem;
+  height: 30px;
   position: absolute;
-  bottom: -10px;
+  bottom: -3px;
   right: 0;
   left: 0;
   z-index: -1;
@@ -151,19 +163,17 @@ header > aside h2 {
 .nav > ul {
   display: flex;
   margin: 0;
-  margin-left: 2rem;
-  padding: 0;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  color:var(--color-nav-text-color);
-flex: 1;
+  padding: 0 2rem;
+  color: var(--color-nav-text-color);
+  flex: 1;
   justify-content: space-between;
-
+  font-style: italic;
+  font-size: 2rem;
 }
-.nav span{
+.nav span {
   text-decoration: none;
 }
-.nav a  {
+.nav a {
   display: block;
   text-decoration: none;
   color: var(--color-link);
@@ -194,15 +204,20 @@ flex: 1;
   max-width: 1024px;
   margin: 0 auto;
   margin-bottom: 4rem;
+  box-shadow: -20px -20px 0 var(--box-shadow-color);
 }
 
 /* Footer */
 .footer {
   padding: 2rem 1.4rem;
   color: var(--color-footer-text);
-  background-image: url('../static/footer.png');
-  background-size: cover;
-
+  background-image: url("../static/footer.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-color: black;
+  background-position-y: inherit;
+  min-height: 26rem;
 }
 
 .footer ul {
