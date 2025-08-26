@@ -89,8 +89,19 @@ async function build() {
   console.info("🎉 Done! 🎉");
   if (process.env.DEV_MODE) {
     let buildRoot = config.root === "." ? "" : config.root;
-    exec(`npx http-server ${buildRoot}`);
-    console.info(`📡 Serving at http://localhost:8080/ 📡`);
+    const server = spawn("npx", ["http-server", buildRoot], { stdio: "pipe" });
+
+    server.stdout.on("data", (data) => {
+      process.stdout.write(data);
+    });
+
+    server.stderr.on("data", (data) => {
+      process.stderr.write(data);
+    });
+
+    server.on("close", (code) => {
+      console.info(`http-server exited with code ${code}`);
+    });
   }
 }
 

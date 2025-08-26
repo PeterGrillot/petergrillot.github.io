@@ -13,4 +13,4 @@ Some of my projects include:
 
 My page builder, [Webgen](https://github.com/PeterGrillot/webgen), was used to make this very site!
 
-I designed this site, drawing inspiration from Brutalism, Art Deco and Vorticism. The featured illustration is [“Light from the Darkness”: Paul Nash’s Genesis (1924)](https://publicdomainreview.org/collection/paul-nash-genesis/), which is in the public domain.
+I designed this site, drawing inspiration from Brutalism, Art Deco and Vorticism. The featured illustration is [“The Sun and the Moon”: Paul Nash’s Genesis (1924)](https://publicdomainreview.org/collection/paul-nash-genesis/), which is in the public domain.
