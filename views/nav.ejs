@@ -5,7 +5,7 @@
     <% if(value.href) {%>
       <li>
         <% if (value.name === name) { %>
-           <span>&rangle;</span><%= value.name %>
+           <span>&rangle; </span><%= value.name %>
         <% } else { %>
            <a href=<%- include('smartlink.ejs'); %><%= value.href %>>
             <%= value.name %>
