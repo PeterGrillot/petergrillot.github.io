@@ -1,5 +1,5 @@
 {
-  "title": "Pete Grillot - UI Engineer", 
+  "title": "Pete Grillot - UI Engineer",
   "root": "build",
   "links": [
     {
@@ -7,11 +7,11 @@
       "href": "https://github.com/PeterGrillot/"
     },
     {
-      "name": "Linked in",
+      "name": "LinkedIn",
       "href": "https://www.linkedin.com/in/petergrillot/"
     },
     {
-      "name": "petergrillot[at]gmail.com",
+      "name": "email",
       "href": "mailto:petergrillot@gmail.com"
     }
   ]
