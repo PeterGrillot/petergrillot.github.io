@@ -73,11 +73,13 @@ Frontend-focused software engineer passionate about designing thoughtful, scalab
 
 <ul class="badge-list">
   <li class="badge">Figma</li>
-  <li class="badge">Miro </li>
+  <li class="badge">Miro</li>
   <li class="badge">VS Code</li>
   <li class="badge">Co-Pilot</li>
   <li class="badge">Claude</li>
   <li class="badge">Ubuntu</li>
+  <li class="badge">tmux</li>
+  <li class="badge">zsh</li>
   <li class="badge">neovim</li>
 </ul>
 
@@ -97,7 +99,7 @@ _Sep 2024 – Present_
 #### Senior Software Engineer
 
 - Lead UI/UX strategy and enhancements on the flagship USP–NF platform, significantly improving usability and client adoption.
-- Designed and implemented a new API backend to deliver testing procedures and standards, streamlining access for pharmaceutical clients with Nest.js.
+- Designed and implemented a new API backend to deliver testing procedures and standards, streamlining access to pharmaceutical testing for lab equipment with Nest.js and Prisma ORM.
 - Drove development of scalable, high-performance interfaces with Next.js and TypeScript, ensuring reliability and accessibility.
 - Built and optimized advanced data visualizations and geospatial maps with Mapbox GL and Keylines to support complex scientific workflows.
 - Elevated developer efficiency by expanding a shared component library and leveraging AI-assisted tools like ChatGPT and Copilot.
@@ -160,7 +162,7 @@ _Jun 2010 – Nov 2015_
 
 ### Dragos Platform - Asset Inventory
 
-Dragos Asset Inventory was a core feature of the Dragos Platform, providing complete visibility into operational technology (OT), IT, IoT, and IIoT assets across critical infrastructure environments. As an early UI owner, I helped design and mature the asset inventory experience from the ground up—introducing advanced filtering, smart filters, dashboards, and performance optimizations to support complex industrial environments. The interface enabled defenders to quickly discover, classify, and prioritize assets and vulnerabilities, forming the foundation for threat detection and incident response workflows.
+Dragos Asset Inventory is a core feature of the Dragos Platform, providing complete visibility into operational technology (OT), IT, IoT, and IIoT assets across critical infrastructure environments. As an early UI owner, I helped design and mature the asset inventory experience from the ground up—introducing advanced filtering, life cycle management tools, dashboards, and performance optimizations to support complex industrial environments. The interface enabled defenders to quickly discover, classify, and prioritize assets and vulnerabilities, forming the foundation for threat detection and incident response workflows.
 
 ![Screenshot](../static/screenshots/dg.jpg "Dragos")
 
