@@ -3,10 +3,13 @@
 I am a frontend-focused software engineer passionate about designing thoughtful, scalable user experiences. With over <span id="years"></span> years of experience leading technical initiatives and growing products from startup to enterprise, I specialize in building clean, reliable interfaces that balance performance, usability, and long-term maintainability.
 
 <div class="contact">
-  <h3 class="badge-heading">Contact</h3>
-  <a href="https://www.linkedin.com/in/petergrillot/" target="_blank">LinkedIn</a>
-  <a href="https://github.com/PeterGrillot" target="_blank">Github</a>
-  <a href="mailto:petergrillot+portfolio@gmail.com" target="_blank">Email</a>
+
+<h3 class="badge-heading">Contact</h3>
+
+<a href="https://www.linkedin.com/in/petergrillot/" target="_blank">LinkedIn</a>
+<a href="https://github.com/PeterGrillot" target="_blank">Github</a>
+<a href="mailto:petergrillot+portfolio@gmail.com" target="_blank">Email</a>
+
 </div>
 
 <div class="skills">

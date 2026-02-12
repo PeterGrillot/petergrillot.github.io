@@ -282,11 +282,3 @@ img[alt="Screenshot"] {
   margin: 0;
   padding-right: 1.2rem;
 }
-
-footer a {
-  color: var(--color-link-dark);
-}
-
-footer a:visited {
-  color: var(--color-link-dark-visited);
-}
