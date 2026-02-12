@@ -56,12 +56,12 @@ Frontend-focused software engineer passionate about designing thoughtful, scalab
   <li class="badge">Playwright</li>
 </ul>
 
-### CI/CD and Orchastration
+### Infrastructure & DevOps
 
 <ul class="badge-list">
   <li class="badge">AWS</li>
   <li class="badge">Docker</li>
-  <li class="badge">Kubernetes</li>
+  <li class="badge">CI/CD</li>
   <li class="badge">Git</li>
   <li class="badge">GitHub</li>
   <li class="badge">BitBucket</li>
