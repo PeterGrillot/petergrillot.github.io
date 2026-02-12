@@ -6,7 +6,7 @@
     <span>&nbsp;|&nbsp;</span>  
   <% } %>
   <% if (next) { %>
-      <a href=<%- include('smartlink.ejs'); %><%= next.href %>><%= next.name %>&rarr;</a>
+      <a target="_blank" href=<%- include('smartlink.ejs'); %><%= next.href %>><%= next.name %>&rarr;</a>
   <% } %>
   <p>
     Pages built with my very own <a href="https://github.com/PeterGrillot/webgen" target="_blank" rel="noopener noreferrer">Webgen technology</a>.

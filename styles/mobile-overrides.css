@@ -25,17 +25,21 @@
 
   body {
     font-size: 1.1rem;
+    background-color: var(--color-tan);
   }
-  .article {
-    max-width: unset;
-    margin: 0 auto;
+
+  .header {
+    padding: 10px;
   }
+
   .header > .aside h2 {
     display: none;
   }
+
   .header img {
     height: 80px;
   }
+
   .header img {
     position: absolute;
     right: 6px;
@@ -44,25 +48,39 @@
     /* border-radius: 100%; */
     top: 5px;
   }
+
+  .article:before {
+    background-color: var(--color-accent-pink);
+  }
+
+  .article {
+    max-width: unset;
+    margin: 0 auto;
+  }
+
   .footer ul {
     flex-direction: column;
   }
   details {
-    border-top: 1px solid #eee;
     margin-bottom: 1rem;
-    padding-top: 1rem;
+    margin-top: 1rem;
   }
   details summary {
+    padding: 0.6rem;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    position: relative;
+    background-color: var(--color-tan);
   }
   details summary h3 {
     margin: 0;
     padding: 0;
   }
   summary p {
-    margin-left: auto;
-    margin-top: -14px;
+    position: absolute;
+    bottom: 0;
+    right: 0.6rem;
+    font-size: 0.8rem;
   }
 }

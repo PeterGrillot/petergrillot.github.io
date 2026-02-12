@@ -29,15 +29,15 @@ async function build() {
     console.info("💾 Copying Files... 💾");
     await copyDir(
       path.join(__dirname, "/styles/"),
-      path.join(distDir, "/styles/")
+      path.join(distDir, "/styles/"),
     );
     await copyDir(
       path.join(__dirname, "/static/"),
-      path.join(distDir, "/static/")
+      path.join(distDir, "/static/"),
     );
     await copyDir(
       path.join(__dirname, "/scripts/"),
-      path.join(distDir, "/static/")
+      path.join(distDir, "/static/"),
     );
   }
 
@@ -46,7 +46,7 @@ async function build() {
   const docFilesOrDirList = await readdir(pagesDir);
   const nestedDocsList = await createNestedDocsList(
     docFilesOrDirList,
-    pagesDir
+    pagesDir,
   );
 
   const flatPagination = flattenPagination(nestedDocsList);
@@ -57,7 +57,7 @@ async function build() {
   console.info(
     `📕 Pages built from \`pages\`:\n\t📝 ${fullDocs
       .map((i) => i.href)
-      .join("\n\t📝 ")}`
+      .join("\n\t📝 ")}`,
   );
 
   // Write to EJS and render to HTML
@@ -87,22 +87,6 @@ async function build() {
     }
   });
   console.info("🎉 Done! 🎉");
-  if (process.env.DEV_MODE) {
-    let buildRoot = config.root === "." ? "" : config.root;
-    const server = spawn("npx", ["http-server", buildRoot], { stdio: "pipe" });
-
-    server.stdout.on("data", (data) => {
-      process.stdout.write(data);
-    });
-
-    server.stderr.on("data", (data) => {
-      process.stderr.write(data);
-    });
-
-    server.on("close", (code) => {
-      console.info(`http-server exited with code ${code}`);
-    });
-  }
 }
 
 build();

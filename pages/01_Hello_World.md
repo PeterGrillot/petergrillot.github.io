@@ -4,84 +4,87 @@ Frontend-focused software engineer passionate about designing thoughtful, scalab
 
 <div class="contact">
 
-### Contact
+<h3 class="badge-heading">Contact</h3>
 
-[LinkedIn](https://www.linkedin.com/in/petergrillot/)
-[Github](https://github.com/PeterGrillot)
-[Email](mailto:petergrillot+portfolio@gmail.com)
+<a href="https://www.linkedin.com/in/petergrillot/" target="_blank">LinkedIn</a>
+<a href="https://github.com/PeterGrillot" target="_blank">Github</a>
+<a href="mailto:petergrillot+portfolio@gmail.com" target="_blank">Email</a>
 
 </div>
+
+<div class="skills">
 
 ## Skills
 
 ### Frontend
 
-<ul class="badge-list">
-  <li class="badge">React</li>
-  <li class="badge">TypeScript</li>
-  <li class="badge">Next.js</li>
-  <li class="badge">Redux | RTK</li>
-  <li class="badge">Material UI</li>
-  <li class="badge">Radix UI</li>
-  <li class="badge">shadcn</li>
-  <li class="badge">Tailwind</li>
-  <li class="badge">Mapbox</li>
-  <li class="badge">HTML5</li>
-  <li class="badge">CSS</li>
-  <li class="badge">d3</li>
-</ul>
-
-### Backend
-
-<ul class="badge-list">
-  <li class="badge">Nest.js</li>
-  <li class="badge">Node</li>
-  <li class="badge">Prisma ORM</li>
-  <li class="badge">Postgres</li>
-  <li class="badge">tRPC</li>
-  <li class="badge">GraphQL</li>
-  <li class="badge">Relational Databases</li>
-  <li class="badge">NoSQL</li>
-  <li class="badge">Python</li>
-  <li class="badge">Kotlin</li>
-</ul>
-
-### Testing & Debugging
-
-<ul class="badge-list">
+  <ul class="badge-list">
+    <li class="badge">React</li>
+    <li class="badge">TypeScript</li>
+    <li class="badge">Next.js</li>
+    <li class="badge">Redux | RTK</li>
+    <li class="badge">Material UI</li>
+    <li class="badge">Radix UI</li>
+    <li class="badge">shadcn</li>
+    <li class="badge">Tailwind</li>
+    <li class="badge">Mapbox</li>
+    <li class="badge">d3</li>
+    <li class="badge">HTML</li>
+    <li class="badge">CSS</li>
+    <li class="badge">canvas</li>
+  </ul>
   
-  <li class="badge">RTL</li>
-  <li class="badge">Jest</li>
-  <li class="badge">Cypress</li>
-  <li class="badge">Playwright</li>
-</ul>
-
-### Infrastructure & DevOps
-
-<ul class="badge-list">
-  <li class="badge">AWS</li>
-  <li class="badge">Docker</li>
-  <li class="badge">CI/CD</li>
-  <li class="badge">Git</li>
-  <li class="badge">GitHub</li>
-  <li class="badge">BitBucket</li>
-  <li class="badge">Atlassian Suite</li>
-  <li class="badge">Linux</li>
-</ul>
-
-### Tools & Collaboration
-
-<ul class="badge-list">
-  <li class="badge">Figma</li>
-  <li class="badge">Miro</li>
-  <li class="badge">VS Code</li>
-  <li class="badge">Co-Pilot</li>
-  <li class="badge">Claude</li>
-  <li class="badge">Ubuntu</li>
-  <li class="badge">tmux</li>
-  <li class="badge">zsh</li>
-  <li class="badge">neovim</li>
-</ul>
+  ### Backend
+  
+  <ul class="badge-list">
+    <li class="badge">Nest.js</li>
+    <li class="badge">Node</li>
+    <li class="badge">Prisma ORM</li>
+    <li class="badge">Postgres</li>
+    <li class="badge">tRPC</li>
+    <li class="badge">GraphQL</li>
+    <li class="badge">Relational Databases</li>
+    <li class="badge">NoSQL</li>
+    <li class="badge">Python</li>
+    <li class="badge">Kotlin</li>
+  </ul>
+  
+  ### Testing & Debugging
+  
+  <ul class="badge-list">
+    <li class="badge">Jest</li>
+    <li class="badge">RTL</li>
+    <li class="badge">Cypress</li>
+    <li class="badge">Playwright</li>
+  </ul>
+  
+  ### Infrastructure & DevOps
+  
+  <ul class="badge-list">
+    <li class="badge">AWS</li>
+    <li class="badge">Docker</li>
+    <li class="badge">CI/CD</li>
+    <li class="badge">Git</li>
+    <li class="badge">GitHub</li>
+    <li class="badge">BitBucket</li>
+    <li class="badge">Atlassian Suite</li>
+    <li class="badge">Linux</li>
+  </ul>
+  
+  ### Tools & Collaboration
+  
+  <ul class="badge-list">
+    <li class="badge">Figma</li>
+    <li class="badge">Miro</li>
+    <li class="badge">VS Code</li>
+    <li class="badge">Co-Pilot</li>
+    <li class="badge">Claude</li>
+    <li class="badge">Ubuntu</li>
+    <li class="badge">tmux</li>
+    <li class="badge">zsh</li>
+    <li class="badge">neovim</li>
+  </ul>
+</div>
 
 ---
 
@@ -189,9 +192,12 @@ You can explore my latest public work on [GitHub](https://github.com/PeterGrillo
 
 Some additional projects include:
 
-- Full stack apps with [Next.js](https://github.com/PeterGrillot/sonopsis) and [Ktor/React](https://github.com/PeterGrillot/krud-app)
-- [Band Site with Schedule and EPK | React](https://github.com/PeterGrillot/curses)
-- [Matrx - Web-based game | JavaScript](https://github.com/PeterGrillot/matrx)
-- [Sound output switching tool for Linux | C](https://github.com/PeterGrillot/switcher)
-- [Veranda - MAME front-end | C++/SFML](https://github.com/PeterGrillot/veranda)
-- [Webgen - Static Site Generator | TypeScript](https://github.com/PeterGrillot/webgen)
+<ul>
+  <li><a href="https://github.com/PeterGrillot/sonopsis" target="_blank">Fullstack App | Next.js</a></li>
+  <li><a href="https://github.com/PeterGrillot/krud-app" target="_blank">Fullstack App | Ktor/React</a></li>
+  <li><a href="https://github.com/PeterGrillot/curses" target="_blank">Band Site with Schedule and EPK | React</a></li>
+  <li><a href="https://github.com/PeterGrillot/matrx" target="_blank">Matrx - Web-based game | JavaScript</a></li>
+  <li><a href="https://github.com/PeterGrillot/switcher" target="_blank">Sound output switching tool for Linux | C</a></li>
+  <li><a href="https://github.com/PeterGrillot/veranda" target="_blank">Veranda - MAME front-end | C++/SFML</a></li>
+  <li><a href="https://github.com/PeterGrillot/webgen" target="_blank">Webgen - Static Site Generator | TypeScript</a></li>
+</ul>
