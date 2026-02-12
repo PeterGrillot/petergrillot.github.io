@@ -98,7 +98,7 @@ _Sep 2024 – Present_
   
 #### Senior Software Engineer
 
-- Lead UI/UX strategy and enhancements on the flagship USP–NF platform, significantly improving usability and client adoption.
+- Led UI/UX strategy and enhancements on the flagship USP–NF platform, significantly improving usability and client adoption.
 - Designed and implemented a new API backend to deliver testing procedures and standards, streamlining access to pharmaceutical testing for lab equipment with Nest.js and Prisma ORM.
 - Drove development of scalable, high-performance interfaces with Next.js and TypeScript, ensuring reliability and accessibility.
 - Built and optimized advanced data visualizations and geospatial maps with Mapbox GL and Keylines to support complex scientific workflows.
@@ -113,7 +113,7 @@ _Sep 2024 – Present_
   _May 2018 – Sep 2024_
   </summary>
 
-#### User Interface Engineer => Senior User Interface Engineer => Staff User Interface Engineer
+#### UI Engineer &#10513; Senior UI Engineer &#10513; Staff UI Engineer
 
 - Early engineer who helped scale Dragos Platform from startup product to enterprise platform as Dragos grew from 40 employees to 500+ and achieved $1B valuation.
 - Led frontend architecture modernization, including a company-wide migration from JavaScript to TypeScript, significantly improving reliability and developer velocity.
@@ -148,10 +148,11 @@ _Jun 2010 – Nov 2015_
 
   </summary>
     
-#### Interactive Media Developer & Media Developer
+#### Media Developer &#10513; Interactive Media Developer
 - Designed and developed interactive web applications for high-profile clients like Beam Suntory.
 - Created Flash-based e-learning courses and the Digital Asset Guide, centralizing brand content with promotional materials.
 - Developed digital training platforms using Adobe Flash and ActionScript, supporting brand engagement strategies.
+- Developed full stack e-learning applications using LAMP stack.
 - Managed multiple client projects simultaneously, balancing creative and technical requirements.
 - Demonstrated commitment to long-term client relationships and took on increasing responsibility throughout my tenure.
 </details>
