@@ -1,15 +1,12 @@
 ## Hello World!
 
-Frontend-focused software engineer passionate about designing thoughtful, scalable user experiences. With over <span id="years"></span> years of experience leading technical initiatives and growing products from startup to enterprise, I specialize in building clean, reliable interfaces that balance performance, usability, and long-term maintainability.
+I am a frontend-focused software engineer passionate about designing thoughtful, scalable user experiences. With over <span id="years"></span> years of experience leading technical initiatives and growing products from startup to enterprise, I specialize in building clean, reliable interfaces that balance performance, usability, and long-term maintainability.
 
 <div class="contact">
-
-<h3 class="badge-heading">Contact</h3>
-
-<a href="https://www.linkedin.com/in/petergrillot/" target="_blank">LinkedIn</a>
-<a href="https://github.com/PeterGrillot" target="_blank">Github</a>
-<a href="mailto:petergrillot+portfolio@gmail.com" target="_blank">Email</a>
-
+  <h3 class="badge-heading">Contact</h3>
+  <a href="https://www.linkedin.com/in/petergrillot/" target="_blank">LinkedIn</a>
+  <a href="https://github.com/PeterGrillot" target="_blank">Github</a>
+  <a href="mailto:petergrillot+portfolio@gmail.com" target="_blank">Email</a>
 </div>
 
 <div class="skills">
@@ -152,6 +149,7 @@ _Jun 2010 – Nov 2015_
   </summary>
     
 #### Media Developer &#10513; Interactive Media Developer
+
 - Designed and developed interactive web applications for high-profile clients like Beam Suntory.
 - Created Flash-based e-learning courses and the Digital Asset Guide, centralizing brand content with promotional materials.
 - Developed digital training platforms using Adobe Flash and ActionScript, supporting brand engagement strategies.
@@ -186,9 +184,7 @@ This Cave Adventure (CRT UI Game) is a retro-styled, text-driven adventure exper
 
 ---
 
-I’m constantly exploring new technologies and building tools that solve real problems — whether for work, music, gaming, or everyday workflows. I enjoy working across the stack and experimenting with different languages and architectures to better understand how systems fit together.
-
-You can explore my latest public work on [GitHub](https://github.com/PeterGrillot), where I regularly experiment with modern frameworks, backend services, and developer-focused tooling.
+The majority of my professional work has been delivered within licensed SaaS platforms and is not publicly available. My [GitHub](https://github.com/PeterGrillot/) features personal projects and experiments with modern frameworks and backend services. These projects reflect exploration and rapid iteration and are distinct from the standards and constraints of enterprise production systems. I am constantly exploring new technologies and building tools that solve real problems or satisfy my curiosity. I enjoy working across the stack and experimenting with different languages and architectures to better understand how systems fit together.
 
 Some additional projects include:
 
