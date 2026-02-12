@@ -13,7 +13,7 @@
     "clean": "npx tsx ./lib/clean.ts",
     "dev": "DEV_MODE=true npm run build",
     "deploy": "npm run build && gh-pages -d build",
-    "deploy:gh-pages": "git checkout gh-pages && npm run build && git add -A . && git commit -m 'Deploy gh-pages' && git push origin -u gh-pages && git checkout main"
+    "deploy:gh-pages": "npm run build && git stash && git checkout gh-pages && git pull && git rm -r . && git checkout main -- build && mv build/* . && rm -rf build && git add -A . && git commit -m 'Deploy gh-pages' && git push origin gh-pages && git checkout main"
   },
   "author": "",
   "license": "ISC",

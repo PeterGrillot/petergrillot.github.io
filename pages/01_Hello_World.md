@@ -69,7 +69,7 @@ Frontend-focused software engineer passionate about designing thoughtful, scalab
   <li class="badge">Linux</li>
 </ul>
 
-### Tools
+### Tools & Collaboration
 
 <ul class="badge-list">
   <li class="badge">Figma</li>
