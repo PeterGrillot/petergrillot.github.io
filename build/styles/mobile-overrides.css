@@ -1,0 +1,68 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+
+  h1 span.given {
+    font-size: 4.6rem;
+  }
+
+  h1 span.surname {
+    font-size: 5.2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  body {
+    font-size: 1.1rem;
+  }
+  .article {
+    max-width: unset;
+    margin: 0 auto;
+  }
+  .header > .aside h2 {
+    display: none;
+  }
+  .header img {
+    height: 80px;
+  }
+  .header img {
+    position: absolute;
+    right: 6px;
+    z-index: -1;
+    filter: grayscale(1);
+    /* border-radius: 100%; */
+    top: 5px;
+  }
+  .footer ul {
+    flex-direction: column;
+  }
+  details {
+    border-top: 1px solid #eee;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  details summary {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  details summary h3 {
+    margin: 0;
+    padding: 0;
+  }
+  summary p {
+    margin-left: auto;
+    margin-top: -14px;
+  }
+}
